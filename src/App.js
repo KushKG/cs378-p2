@@ -96,7 +96,7 @@ function App() {
           </h3>
         </div>
       </div>
-      <div>
+      <div className="mt-5 pt-3">
         {menuItems.map(item => (
         <MenuItem
           key={item.id}
