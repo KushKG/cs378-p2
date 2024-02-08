@@ -83,10 +83,10 @@ const menuItems = [
 function App() {
   return (
     <div>
-      <div className="mt-5 text-center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Chick-fil-A_Logo.svg/582px-Chick-fil-A_Logo.svg.png" className="logo-size" alt="Chick-fil-A Logo" />
+      <div className="mt-2 text-center">
+        <img src="https://dw0i2gv3d32l1.cloudfront.net/uploads/stage/stage_image/34873/optimized_large_thumb_stage.jpg" className="logo-size" alt="Chick-fil-A Logo" />
       </div>
-      <div className="mt-5 text-center">
+      <div className="mt-2 text-center">
         <div className="cursive-text">
           Tasty, Savoury, and Yummy Japanese Food
         </div>
@@ -96,7 +96,7 @@ function App() {
           </h3>
         </div>
       </div>
-      <div className="mt-5 pt-3">
+      <div className="mt-4 pt-3">
         {menuItems.map(item => (
         <MenuItem
           key={item.id}
